@@ -30,5 +30,11 @@
 			item.style.width =total+ "%";
 		}
 		}
-	
+	}
+
+	function AddEtem(){
+		var item = document.createElement("P");
+		item.innerHTML = document.getElementById("txtName").value;
+		document.getElementById("display").appendChild(item);
+		
 	}
